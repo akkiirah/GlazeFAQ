@@ -1,0 +1,2 @@
+# GlazeFAQ
+FAQs for GlazeWM
