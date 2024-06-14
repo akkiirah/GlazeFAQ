@@ -13,6 +13,13 @@ Check it out [here](https://github.com/glzr-io/glazewm).
 ### Make Glaze run on startup?
 Find the exe on your computer. Right Click and make a Shortcut, then cut the created Shortcut. Now hit `Win+R` to open the `Run` prompt. Enter `shell:startup` to get to the Windows startup folder. Paste your shortcut here. That's it!
 
+### Make elevated windows controllable by Glaze?
+Run Glaze as Administrator.
+
+### Make the bar translucient or transparent?
+- Try `opacity: 0.7`. Change to any value between 0.0 and 1.0. This changes the opacity of the bar as a whole.
+- Try `background: #ABABAB00`. The first 6 numbers correspond to the color, the last 2 numbers correspond to opacity. This changes only the bar background, not the items inside the bar.
+
 ## Why is/are my...
 
 ### Icons not showing up?
